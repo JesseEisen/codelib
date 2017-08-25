@@ -13,7 +13,7 @@ CFLAGS = -std=c99 -Ideps -Wall
 all: $(BINS)
 
 $(BINS): $(SRC) $(OBJS)
-	$(CC) $(CFLAGS) -o $@ src/$(@:.exe=).c $(OBJS) 
+	$(CC) $(CFLAGS) -o $@ src/$(@).c $(OBJS) 
 
 %.o: %.c
 	$(CC) $< -c -o $@ $(CFLAGS)

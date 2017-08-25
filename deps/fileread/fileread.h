@@ -13,6 +13,7 @@
 #include <string.h>
 #include <assert.h>
 #include <unistd.h>
+#include <sys/types.h>
 
 size_t
 file_size(FILE *stream);

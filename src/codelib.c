@@ -5,18 +5,7 @@
 // Copyright (c) 2017 JesseChen <lkchan0719@gmail.com>
 //
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include "commander/commander.h"
-#include "strdup/strdup.h"
 #include "codelib.h"
-
-typedef struct {
-	char *dir;
-	char *key;
-	int  bLocal;
-}options;
 
 options g_opt = {NULL,NULL,0};
 
